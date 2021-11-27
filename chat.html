@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Lets Chat!</title>
+        <link rel="stylesheet" href="chat.css">
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Simonetta:wght@900&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <button id="logout" onclick="window.location = 'index.html'" class="btn btn-danger" >Logout</button><br>
+<center>
+    
+    <h1 id="h1">Lets Chat!</h1>
+    <div id="messages">
+    
+        
+        </div>
+        <div id="input">
+        <span><input id="text-message" class="form-control"></span><button style="font-family: 'Risque', cursive;" onclick="send()" class="btn btn-info">Send</button>
+        <hr></div>
+    </center>
+
+    </div>
+
+
+
+
+</body><script src="chat.js"></script></html>

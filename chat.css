@@ -1,0 +1,66 @@
+#logout{
+    float: right;
+    position: sticky;
+    margin-right:10px;
+    margin-top: 10px;}
+body{
+    background-size: cover;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/681/501/small_2x/blue-green-gradient-background-with-dots-and-shapes.jpg");
+}    
+#h1{
+    font-size: 59px;
+    font-family: 'Simonetta', cursive;
+    text-align: bottom;
+margin-left:100px ;
+color:white
+}
+#output{
+     
+    width: 1000px;    
+    border-radius: 10px;
+    background-color: rgb(224, 224, 224); 
+}
+#tick{
+    width: 45px;
+    height: 22.5px;}
+    .items{
+        margin-left: -800;
+    }
+#TU{
+    width: 22px;
+    height: 22px;   
+}
+button{
+    background-color: #3d9d91
+    ;
+    border: none;
+    border-radius: 3px;
+    height: auto;
+    width:auto;
+    font-family: 'Risque', cursive; 
+    
+}
+#name{
+    font-family: 'Risque', cursive;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#message{
+    font-family:'Simonetta',cursive;
+    font-size: 25px;
+  
+}
+#input{
+    position:fixed; bottom:0;
+    background-color: white;
+    width:100%;
+    height: 150px;
+  
+
+}
+
+#text-message{
+    margin: 30px 30px 30px 30px;
+    display: inline;
+    width: 1000px;
+}

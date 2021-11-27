@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Lets Chat!</title>
+        <link rel="stylesheet" href="style2.css">
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Simonetta:wght@900&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<script src="room.js"></script>
+</head>
+<body>
+<button id="logout" onclick="window.location = 'index.html'" class="btn btn-danger">Logout</button><br>
+    <center>
+        <h1 id="hi" style="font-size:50px;font-family: 'Risque', cursive;"></h1>
+<div id="inp_div"> <h2 style=" font-size:30px;font-family: 'Simonetta', cursive; " id="inp_txt">
+    Enter a room name to name your new room</h2>
+    <input id="inp" class="form-control" plceholder="Enter Room Name">
+    <br>
+    <button id=addroom class="btn btn-info" onclick="addroom()">Add Room</button>
+</div>
+<div id="output"></div>
+</center> 
+
+
+</body>

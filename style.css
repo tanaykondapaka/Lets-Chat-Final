@@ -1,0 +1,156 @@
+body{
+    background-image: url("https://us.123rf.com/450wm/sd10686/sd106861603/sd10686160300099/53635622-blue-green-gradient-abstract-geometric-triangular-polygon-style-illustration-graphic-background.jpg?ver=6");
+
+    background-size: 1530px;
+    border: solid 10px #292929;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: #221e26;
+   
+    
+}
+#section2{
+    
+    height:100%;
+   width: 100%;
+}
+#load{
+    
+    margin-top: 110px;
+    margin-right: 0px;
+}
+
+
+
+#section{
+   height:102%;
+   width: 102%;
+    background-size: 1530px;
+    border: solid 15px #221e26;
+    background-color: #221e26;
+    margin-top: -1px;
+    margin-left: -1px;  
+      
+    
+    
+    
+
+}
+#image_div{
+    margin-top: 50px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(34, 34, 34, 0.5), rgba(112, 112, 112, 0.5));
+    height: 550px;
+    border-radius: 10px;
+    width: 400px;
+}
+#messages{
+    margin-top: 10px;
+    
+}
+#title{
+    margin-top: -570px;
+    margin-left: 430px;
+    background: linear-gradient(rgba(34, 34, 34, 0.5), rgba(112, 112, 112, 0.5));
+    border-radius: 10px;
+    width: 1000px;
+    height: 137px;
+}
+
+#h1{
+    font-size: 59px;
+    font-family: 'Simonetta', cursive;
+    text-align: bottom;
+  
+}
+#p{
+    font-family: 'Risque', cursive;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+#main{
+    margin-left: 430px; 
+    background: linear-gradient(rgba(34, 34, 34, 0.5), rgba(112, 112, 112, 0.5));
+    border-radius: 10px;
+    width: 1000px;
+    height: 393px;
+}
+#h2{
+    font-size: 45px;
+    font-family: 'Simonetta', cursive;
+    
+}
+#h3{
+    font-family: 'Risque', cursive;
+    font-size: 35px; 
+}
+#h4{
+    font-size: 20px;
+    font-family: 'Simonetta', cursive;  
+}
+#loginId{
+    width: 500px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    color:black;
+    font-size: 30px;
+    font-family: 'Risque', cursive;
+    border:2px solid black  
+    
+}
+
+#loginId::placeholder{
+    font-size: 30px;
+    font-family: 'Risque', cursive;
+    color: rgb(41, 41, 41); 
+}
+.R{
+   height: 140px;
+   width: 180px;
+   margin-left: -35px;
+   margin-right: -30px;
+}
+.L{
+    height: 100px;
+    width: 160px;
+    margin-left: -35px;
+    margin-right: -30px;
+ }
+ #login{
+     border-radius: 20px;
+     height: 40px;
+     width: 200px;
+     background-color: transparent;
+     font-size: 25px;
+     font-family: 'Simonetta', cursive;  ;
+    border:2px solid rgb(41, 41, 41); 
+    color: rgb(41, 41, 41);
+    margin-top: 50px; 
+    display: none;}
+    
+    #ba{
+        font-size: 25px;
+     font-family: 'Simonetta', cursive;
+     color: rgb(41, 41, 41);
+     text-decoration: none;
+        
+    
+ }
+ #login:hover{
+     height: 35px;
+     width: 195px;
+     
+     margin-top: 52.5px;
+     font-size: 20px; 
+ }
+ #ba:hover{
+text-decoration: none;
+font-family: 'Simonetta', cursive;
+     color: rgb(41, 41, 41);
+     text-decoration: none;
+    
+    margin-top: 52.5px;
+    font-size: 20px; 
+}
