@@ -59,7 +59,7 @@ likees=document.getElementById(btnid).value;
 
 
 updated_likes=Number(likees)+1
-alert(updated_likes)
+
 firebase.database().ref(room_name).child(msgid).update
 (
 
