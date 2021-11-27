@@ -33,15 +33,7 @@ function input1(){
 function nextpage(){
   console.log("hi",inputvalue)
 
-  firebase.database().ref("/").child(inputvalue).update
-  (
-    {
-
-    purpose:"data"
-    
-    }
-    );
-
+  
   document.getElementById("section2").style.display="none"
   setTimeout(function(){ 
     console.log("hi")
